@@ -60,5 +60,18 @@ void bubbleSortArray()
     
 }
 
+void display() {
+    cout << "\n=====================\n";
+    cout << "    Elemen array setelah diurutkan (Asc)\n";
+    cout << "=====================\n";
 
+    for (int j = 0; j < nPanjang; j++) {
+        // PERBAIKAN: Hapus tanda petik agar yang muncul adalah NILAI array-nya
+        cout << element[j]; 
+        if (j < nPanjang - 1) {
+            cout << " -> ";
+        }
+    }
+    cout << endl;
+}
 
