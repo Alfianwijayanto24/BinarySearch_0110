@@ -74,4 +74,15 @@ void display() {
     }
     cout << endl;
 }
+void binarySearch() { // Perbaikan typo nama fungsi
+    char ulang;
+    do {
+        cout << "\n ========================\n";
+        cout << "    Pencarian Binary Search\n";
+        cout << " ========================\n";
 
+        cout << "Masukan element yang ingin dicari:";
+        cin >> x;
+
+    }
+}
