@@ -84,5 +84,9 @@ void binarySearch() { // Perbaikan typo nama fungsi
         cout << "Masukan element yang ingin dicari:";
         cin >> x;
 
+            int low = 0;
+        int high = nPanjang - 1;
+        bool ditemukan = false; // Tambahan flag agar logika lebih rapi
+
     }
 }
