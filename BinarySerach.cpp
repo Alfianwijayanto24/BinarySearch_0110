@@ -21,4 +21,18 @@ void input()
             cout << "\n[!] Jumlah elemen tidak boleh lebih dari 10. silakan coba lagi.\n";
         }
     }
-}
+        cout << "\n======================\n";
+    cout << "        masukan elemen Array   \n";
+    cout << "======================\n";
+
+    for (int i = 0; i < nPanjang; i++)
+    {
+
+        cout << "DATA KE-" << (i + 1) <<  "=";
+        cin >> element[i];
+    }
+    
+    
+    
+} 
+
