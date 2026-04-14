@@ -88,5 +88,19 @@ void binarySearch() { // Perbaikan typo nama fungsi
         int high = nPanjang - 1;
         bool ditemukan = false; // Tambahan flag agar logika lebih rapi
 
+           while (low <= high) {
+            int mid = (low + high) / 2;
+            if (element[mid] == x) {
+                cout << "\n[v] Element " << x << " ditemukan pada index " << mid << "\n";
+                ditemukan = true;
+                break; // PERBAIKAN: Gunakan break, bukan return
+            }
+            if (x < element[mid]) {
+                high = mid - 1;
+            } else {
+                low = mid + 1;
+            }
+        }
+
     }
-}
+}   
